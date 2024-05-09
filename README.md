@@ -5,15 +5,16 @@ Develop a C# program to get the values from the user using structure and store i
 To develop a C# program using file streams.
 
 # ALGORITHM:
-### Step 1: Define a structure UserData to hold user data fields like name, age, and email.
-### Step 2: Create an array of UserData to store multiple user data entries. Use a loop to prompt the user to input their name, age, and email, and store the input in the array.
-### Step 3: Specify the file path where the user data will be stored.
-### Step 4: Inside the loop, for each user data entry, open the file in append mode using StreamWriter and write the user data to the file.
-### Step 5: Close the file after writing all user data.
-### Step 6: Display a message indicating that the user data has been saved to the file.
+
+## Step 1: Define a structure UserData to hold user data fields like name, age, and email.
+## Step 2: Create an array of UserData to store multiple user data entries. Use a loop to prompt the user to input their name, age, and email, and store the input in the array.
+## Step 3: Specify the file path where the user data will be stored.
+## Step 4: Inside the loop, for each user data entry, open the file in append mode using StreamWriter and write the user data to the file.
+## Step 5: Close the file after writing all user data.
+##  Step 6: Display a message indicating that the user data has been saved to the file.
 
 # PROGRAM:
-```
+```C#
 using System;
 using System.IO;
 
@@ -68,7 +69,8 @@ class Program
 ```
 
 # OUTPUT:
-![alt text](image.png)
+![Screenshot 2024-05-09 142855](https://github.com/naveen-m0804/Exp-10-File-Manipulation-CSharp/assets/119393023/595e021a-ef85-41d1-ac91-b77067264cf6)
+
 
 # RESULT:
 Thus the C# program to get the values from the user using structure and store it in a file in a specific path using file stream concept executed successfully.
