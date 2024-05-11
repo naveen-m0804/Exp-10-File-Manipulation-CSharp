@@ -44,11 +44,6 @@ class Program
 
             WriteUserDataToFile(filePath, ud[i]);
         }  
-        
-        
-
-       
-
         Console.WriteLine("User data has been saved to the file.");
     }
 
