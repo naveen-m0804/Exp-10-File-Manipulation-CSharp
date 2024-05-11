@@ -13,7 +13,7 @@ To develop a C# program using file streams.
 ### Step 6: Display a message indicating that the user data has been saved to the file.
 
 # PROGRAM:
-```
+```c#
 using System;
 using System.IO;
 
